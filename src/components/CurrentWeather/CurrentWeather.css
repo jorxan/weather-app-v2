@@ -1,0 +1,34 @@
+.fa-sun {
+    color: #fff;
+}
+
+.weather__box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.weather__icon {
+    text-align: right;
+}
+
+.weather__icon > i {
+    padding-top: 15px;
+}
+
+.weather__description {
+    text-align: left;
+    padding-left: 15%;
+    color: #fff;
+}
+
+.degree {
+    font-size: 110px;
+}
+
+.desc {
+    font-size: 26px;
+}
+
+.word {
+    margin: 0;
+}

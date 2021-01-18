@@ -1,0 +1,25 @@
+.cwc__container {
+    height: 275px;
+    width: 100%;
+}
+
+.cwc__wrapper {
+    max-height: 275px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 30%);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3.5%;
+}
+.bottom-row {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}

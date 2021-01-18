@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './Location.css';
 
 function Location() {
     return (
         <div>
             <div className="location">
-                Location
+                Gilbert, AZ
             </div>
             <div className="date">
-                Month Day Year
+                January 17 2021
             </div>
         </div>
     )

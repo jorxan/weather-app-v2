@@ -1,0 +1,39 @@
+.container {
+    margin: 0 10% 5% 10%;
+}
+
+.todays__weather {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.forecast__word {
+    color: #fff;
+    font-size: 52px;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.forecast__list {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .forecast__list::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+

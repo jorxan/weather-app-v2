@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: 100%;
   width: 100;
-  background: url('./images/wallpapersden.com_landscape-pixel-art_1920x1080.jpg');
   font-family: 'Poppins', sans-serif;
   ;
+}
+
+body {
+  background: url('./images/wallpapersden.com_landscape-pixel-art_1920x1080.jpg') no-repeat;
+  background-size: cover;
 }
 

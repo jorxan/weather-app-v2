@@ -1,76 +1,60 @@
-import React from 'react'
+import React from 'react';
+import './Cwc.css';
 
 function CurrentWeatherCard() {
     return (
-        <div className="cwc__wrapper">
-            <div className="row">
-                <div className="col-lg-4 high">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            7
+        <div className="cwc__container">
+            <div className="cwc__wrapper">
+                <div className="top-row">
+                    <div className="high">
+                        <div className="numbers">
+                        18°
                         </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
-                            High
-                        </div>
+                        <p className="word">High</p>
                     </div>
-                </div>
-                <div className="col-lg-4 wind">
-                <div className="row">
-                        <div className="col-lg-12">
-                            40mph
+                    <div className="wind">
+                        <div className="numbers">
+                            .05mph
                         </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
+                        <div className="word">
                             Wind
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-4 sunrise">
-                <div className="row">
-                        <div className="col-lg-12">
-                            7am
+                    <div className="wind">
+                        <div className="numbers">
+                            7:00 AM
                         </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
+                        <div className="word">
                             Sunrise
                         </div>
                     </div>
+                    
                 </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-4 low">
-                <div className="row">
-                        <div className="col-lg-12">
-                            4
+
+                <div className="bottom-row">
+                    <div className="high">
+                        <div className="numbers">
+                        18°
                         </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
-                            Low
+                        <p className="word">High</p>
+                    </div>
+                    <div className="wind">
+                        <div className="numbers">
+                            .05mph
+                        </div>
+                        <div className="word">
+                            Wind
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-4 rain">
-                <div className="row">
-                        <div className="col-lg-12">
-                            30%
+                    <div className="wind">
+                        <div className="numbers">
+                            7:00 AM
                         </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
-                            Rain
+                        <div className="word">
+                            Sunrise
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-4 sunset">
-                <div className="row">
-                        <div className="col-lg-12">
-                            7pm
-                        </div>
-                    </div><div className="row">
-                        <div className="col-lg-12">
-                            Sunset
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

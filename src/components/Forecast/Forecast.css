@@ -1,0 +1,29 @@
+.forecast__card {
+    display: inline-block;
+}
+
+.forecast {
+    width: 180px;
+    height: 250px;
+    background-color: rgb(255, 255, 255, 30%);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.forecast__day {
+    font-size: 22px;
+}
+
+.forecast__time {
+    font-size: 22px;
+}
+
+.forecast__temp {
+    font-size: 50px;
+    position: relative;
+    bottom: 0;
+}
